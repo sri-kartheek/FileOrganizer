@@ -12,39 +12,54 @@ A Python automation script that **organizes files in a folder** into subfolders 
 - Supports most common file types (PDF, DOCX, MP3, MP4, PNG, ZIP, etc.).
 
 ## 📂 Project Structure
-file-organizer/
-│── file_organizer.py   # Main Python script
-│── README.md           # Project documentation
-│── LICENSE             # MIT License
+file-organizer/  
+│── file_organizer.py # Main Python script
+│── README.md # Project documentation
+│── LICENSE # MIT License
 
 ## ▶️ Example Run
-**Before running the script (Downloads/ folder):**
-photo.jpg, resume.pdf, song.mp3, script.py, movie.mkv
+**Before running the script (`Downloads/` folder):**
+photo.jpg
+resume.pdf
+song.mp3
+script.py
+movie.mkv
 
 **After running the script:**
 Downloads/
 ├── Images/
-│   └── photo.jpg
+│ └── photo.jpg
 ├── Documents/
-│   └── resume.pdf
+│ └── resume.pdf
 ├── Music/
-│   └── song.mp3
+│ └── song.mp3
 ├── Code/
-│   └── script.py
+│ └── script.py
 ├── Videos/
-│   └── movie.mkv
+│ └── movie.mkv
+
 
 ## 💻 Usage
 1. Clone the repository  
-git clone https://github.com/yourusername/file-organizer.git  
-cd file-organizer  
+
+
+git clone https://github.com/yourusername/file-organizer.git
+
+cd file-organizer
+
 
 2. Run the program  
-python file_organizer.py  
+
+
+python file_organizer.py
+
 
 3. Enter the folder path when prompted  
 Example:  
-Enter the folder path to organize: C:\Users\YourName\Downloads  
+
+
+Enter the folder path to organize: C:\Users\YourName\Downloads
+
 
 ## 📘 Concepts Used
 - os → File and folder operations
