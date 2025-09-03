@@ -12,11 +12,12 @@ A Python automation script that **organizes files in a folder** into subfolders 
 - Supports most common file types (PDF, DOCX, MP3, MP4, PNG, ZIP, etc.).
 
 ## 📂 Project Structure
+```
 file-organizer/  
 │── file_organizer.py # Main Python script
 │── README.md # Project documentation
 │── LICENSE # MIT License
-
+```
 ## ▶️ Example Run
 **Before running the script (`Downloads/` folder):**
 photo.jpg
@@ -26,6 +27,7 @@ script.py
 movie.mkv
 
 **After running the script:**
+```
 Downloads/
 ├── Images/
 │ └── photo.jpg
@@ -37,7 +39,7 @@ Downloads/
 │ └── script.py
 ├── Videos/
 │ └── movie.mkv
-
+```
 
 ## 💻 Usage
 1. Clone the repository  
